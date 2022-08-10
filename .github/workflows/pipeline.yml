@@ -11,7 +11,7 @@ on:
   push:
     branches: [ "changelog" ]
   pull_request:
-    branches: [ "changelog" ]
+    branches: [ "main", "changelog" ]
 
 permissions:
   contents: write
